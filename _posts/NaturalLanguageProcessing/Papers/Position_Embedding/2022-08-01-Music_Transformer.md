@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Music Transformer - Generating Music with Long-term Structure
+title: Music Transformer - Generating Music with Long-Term Structure
 subtitle: Title of paper - Music Transformer - Generating Music with Long-Term Structure
 category: Transformers - Position Embedding
 tags: [Trainsformer, position]
@@ -17,29 +17,29 @@ bigimg:
   
 ---
 
-This article is brief summary about the paper that I read for study and curiosity, so I shortly arranges the content of the paper, titled [Music Transformer: Generating Music with Long-Term Structure, Huang et al. ICLR 2019](https://openreview.net/forum?id=rJe4ShAcF7), that I read and studied. 
+This post is a brief summary about the paper that I read for study and curiosity, so I shortly arrange the content of the paper, titled [Music Transformer: Generating Music with Long-Term Structure, Huang et al. ICLR 2019](https://openreview.net/forum?id=rJe4ShAcF7), that I read and studied. 
 
 {% include MathJax.html %}
 
-The original paper([Vaswani et al. NIPS 2017](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)) use positin encoddeing in input layer.
+The original paper by([Vaswani et al. NIPS 2017](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)) for transformer architecture uses positin encoding in input layer.
 
-In addition, this paper proposes efficient relative position embedidng for music generation unlike [Shaw et al., NAACL 2018](https://aclanthology.org/N18-2074/).
+However, this paper proposes the efficient relative position embedding for music generation applying the method from [Shaw et al., NAACL 2018](https://aclanthology.org/N18-2074/).
 
-they argue that for music generation, since timing and pitch is repeatedly generated, they extend self-attention mechanism approach based relative position embedding to music generation task. 
+They argue that for music generation, since timing and pitch is repeatedly generated, they take advantage of self-attention mechanism approach based relative position embedding to music generation task. 
 
-As a result, a Transformer with their relative attnetion mechanism maintain the regular timing grid present in the JSB Chorales dataset.
+As a result, they are saying that a Transformer with their relative attnetion mechanism maintains the regular timing grid present in the JSB Chorales dataset.
 
-For detailed way about represent as token music to approach autoregressive problem on music generation, refer to the paper, titled [Music Transformer: Generating Music with Long-Term Structure, Huang et al. ICLR 2019](https://openreview.net/forum?id=rJe4ShAcF7).
+For the detailed method about representating music as a token seqeunce to apply autoregressive problem on music generation, refer to the paper, titled [Music Transformer: Generating Music with Long-Term Structure, Huang et al. ICLR 2019](https://openreview.net/forum?id=rJe4ShAcF7).
 
-On this article, I focus on the relative position embedding on self-attention mechanisms. 
+On this article, I focus on explaining how to formularizing the relative position embedding on self-attention mechanisms. 
 
 As you can see the paper, titled [Music Transformer: Generating Music with Long-Term Structure, Huang et al. ICLR 2019](https://openreview.net/forum?id=rJe4ShAcF7), 
 
 [Shaw et al., NAACL 2018](https://aclanthology.org/N18-2074/) introducesd relative position embedding to allow attention to be informed by how far two position are apart in a sequence. 
 
-This intution causes a separate relative position embedding, but they use relative score added to logit for self-attention as follows:
+This intution causes model to make a separate relative position embedding, but they use relative bias score added to logit in self-attention mechanism as follows:
 
-$$RelativeAttention = Softmax(\frac{QK^T + S^{rel}}{\sqrt(D_h)})$$
+$$RelativeAttention = Softmax(\frac{QK^T + S^{rel}}{\sqrt(D_h)})V$$
 
 
 The equation above is takeaway for relative poisiton embedding they proposed.
