@@ -17,11 +17,11 @@ bigimg:
   
 ---
 
-This article is brief summary about the paper that I read for study and curiosity, so I shortly arranges the content of the paper, titled [Music Transformer: Generating Music with Long-Term Structure, Huang et al. ICLR 2019](https://openreview.net/forum?id=rJ), that I read and studied. 
+This article is brief summary about the paper that I read for study and curiosity, so I shortly arranges the content of the paper, titled [Music Transformer: Generating Music with Long-Term Structure, Huang et al. ICLR 2019](https://openreview.net/forum?id=rJe4ShAcF7), that I read and studied. 
 
 {% include MathJax.html %}
 
-The original paper([Vaswani et al. NIPS 2017](https://papers.nips.cc/paper/2019/hash/9d63484abb477c97640154d40595a3bb-Abstract.html)) use positin encoddeing in input layer.
+The original paper([Vaswani et al. NIPS 2017](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)) use positin encoddeing in input layer.
 
 In addition, this paper proposes efficient relative position embedidng for music generation unlike [Shaw et al., NAACL 2018](https://aclanthology.org/N18-2074/).
 
@@ -29,11 +29,11 @@ they argue that for music generation, since timing and pitch is repeatedly gener
 
 As a result, a Transformer with their relative attnetion mechanism maintain the regular timing grid present in the JSB Chorales dataset.
 
-For detailed way about represent as token music to approach autoregressive problem on music generation, refer to the paper, titled [Music Transformer: Generating Music with Long-Term Structure, Huang et al. ICLR 2019](https://openreview.net/forum?id=rJ).
+For detailed way about represent as token music to approach autoregressive problem on music generation, refer to the paper, titled [Music Transformer: Generating Music with Long-Term Structure, Huang et al. ICLR 2019](https://openreview.net/forum?id=rJe4ShAcF7).
 
 On this article, I focus on the relative position embedding on self-attention mechanisms. 
 
-As you can see the paper, titled [Music Transformer: Generating Music with Long-Term Structure, Huang et al. ICLR 2019](https://openreview.net/forum?id=rJ), 
+As you can see the paper, titled [Music Transformer: Generating Music with Long-Term Structure, Huang et al. ICLR 2019](https://openreview.net/forum?id=rJe4ShAcF7), 
 
 [Shaw et al., NAACL 2018](https://aclanthology.org/N18-2074/) introducesd relative position embedding to allow attention to be informed by how far two position are apart in a sequence. 
 
