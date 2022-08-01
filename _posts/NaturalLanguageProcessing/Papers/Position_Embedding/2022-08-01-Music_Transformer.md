@@ -39,7 +39,7 @@ As you can see the paper, titled [Music Transformer: Generating Music with Long-
 
 This intution causes a separate relative position embedding, but they use relative score added to logit for self-attention as follows:
 
-$$RelativeAttention = Softmax(\frac{QK^T + S^rel}{\sqrt(D_h)})$$
+$$RelativeAttention = Softmax(\frac{QK^T + S^{rel}}{\sqrt(D_h)})$$
 
 
 The equation above is takeaway for relative poisiton embedding they proposed.
