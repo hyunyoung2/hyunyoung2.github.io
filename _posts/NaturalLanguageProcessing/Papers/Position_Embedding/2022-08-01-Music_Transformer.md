@@ -2,8 +2,8 @@
 layout: post
 title: Music Transformer - Generating Music with Long-Term Structure
 subtitle: Title of paper - Music Transformer - Generating Music with Long-Term Structure
-category: Transformers - Position Embedding
-tags: [Trainsformer, position]
+category: Transformer - Position Embedding
+tags: [Transformer, position]
 permalink: /2022/08/01/Music_Transformer/
 css : /css/ForYouTubeByHyun.css
 bigimg: 
