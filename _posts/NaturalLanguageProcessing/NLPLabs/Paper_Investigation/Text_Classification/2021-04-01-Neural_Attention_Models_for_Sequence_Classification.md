@@ -57,7 +57,7 @@ $$\alpha_i = \frac{exp(e_i)}{\sum_{i=1}^T exp(e_i)}$$
 
 For smoothint, they changed the exponential function in equation above with logisitic sigmoid function \\(\\\), 
 
-$$\alpha_i = \frac{\sigma(e_i}{\sum_{i=1}^T \sigma(e_i)}$$
+$$\alpha_i = \frac{\sigma(e_i)}{\sum_{i=1}^T \sigma(e_i)}$$
 
 With their model and attention machanism, they carried out two sequence classification task.
 
