@@ -45,7 +45,7 @@ $$RelativeAttention = Softmax(\frac{QK^T + S^{rel}}{\sqrt(D_h)})$$
 The equation above is takeaway for relative poisiton embedding they proposed.
 
 
-For detailed experiment and explanation, refer to the paper, titled [Music Transformer: Generating Music with Long-Term Structure, Huang et al. ICLR 2019](https://openreview.net/forum?id=rJ).
+For detailed experiment and explanation, refer to the paper, titled [Music Transformer: Generating Music with Long-Term Structure, Huang et al. ICLR 2019](https://openreview.net/forum?id=rJe4ShAcF7).
 
     
 <div class="alert alert-success" role="alert"><i class="fa fa-paperclip fa-lg"></i> <b>Download URL: </b><br>
