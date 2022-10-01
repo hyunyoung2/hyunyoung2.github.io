@@ -1,0 +1,65 @@
+---
+layout: post
+title: GloVe-Global Vectors for Word Representation
+subtitle: Title of paper - GloVe-Global Vectors for Word Representation
+category: NLP papers - Word Embedding
+tags: [nlp, word embedding]
+permalink: /2018/10/31/GloVe_Global_Vectors_for_Word_Representation/
+css : /css/ForYouTubeByHyun.css
+bigimg: 
+  - "/img/Image/BigImages/carmel.jpg" : "Carmel-by-the-Sea, CA (2016)"
+  - "/img/Image/BigImages/monterey.jpg" : "Monterey, CA (2016)"
+  - "/img/Image/BigImages/stanford_dish.jpg" : "Stanford Dish, CA (2016)"
+  - "/img/Image/BigImages/marian_beach_in_sanfran.jpg" : "MRINA of San Francisco, CA (2016)"
+  - "/img/Image/BigImages/carmel2.jpg" : "Carmel-by-the-Sea, CA (2016)"
+  - "/img/Image/BigImages/marina.jpg" : "MRINA of San Francisco, CA (2016)"
+  - "/img/Image/BigImages/sanfrancisco.jpg" : "San Francisco, CA (2016)"
+---
+
+{% include MathJax.html %}
+
+This post is a brief summary about the paper that I read for my study and curiosity, so I shortly arrange the content of the paper, titled [An Evaluation Dataset for Intent Classification and Out-of-Scope Prediction (Larson et al. EMNLP 2019)](https://aclanthology.org/D19-1131/), that I read and studied. 
+
+They release new dataset for out-of-scope intent classification.
+
+The dataset is CLINC which can look into [CLINC github](https://github.com/clinc/oos-eval).
+
+I would summarize what I study on the paper, titled [An Evaluation Dataset for Intent Classification and Out-of-Scope Prediction (Larson et al. EMNLP 2019)](https://aclanthology.org/D19-1131/)
+
+<div id="tutorial-section">
+
+  <div id="tutorial-title">reprentation</div>
+
+  <ul class="nav nav-pills">
+    <li class="active"><a data-toggle="tab" href="#refrigerator">Representation Material</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="refrigerator" class="tab-pane fade in active">
+      <iframe width="560" height="315" src="https://www.slideshare.net/secret/bJN52wR6chSFk3" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+
+
+<div class="alert alert-success" role="alert"><i class="fa fa-paperclip fa-lg"></i> <b>Download URL: </b><br>
+  <a href="https://aclanthology.org/D19-1131/">The paper: An Evaluation Dataset for Intent Classification and Out-of-Scope Prediction (Larson et al. EMNLP 2019)</a>
+</div>
+
+
+
+# Reference 
+
+- Paper 
+  - [EMNLP Version: An Evaluation Dataset for Intent Classification and Out-of-Scope Prediction (Larson et al. EMNLP 2019)](https://aclanthology.org/D19-1131/)
+  - [ArXiv Version: An Evaluation Dataset for Intent Classification and Out-of-Scope Prediction (Larson et al. EMNLP 2019)](https://arxiv.org/abs/1909.02027)
+ 
+- How to use html for alert
+  - [how to use icon](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_icons.html)
+
+- Inforamtive other paper related to this post
+  - [ICLR Version: A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks (Hendrycks and Gimpel 2017 ICLR)](https://openreview.net/forum?id=Hkg4TI9xl)
+  - [ArXiv Version: A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks (Hendrycks and Gimpel 2017)](https://arxiv.org/abs/1610.02136)
+  
+  - [ICLR Version: Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks (Liang et al. ICLR 2018](https://openreview.net/forum?id=H1VGkIxRZ)
+  - [ArXiv Version: Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks (Liang et al. 2018](https://arxiv.org/abs/1706.02690) 
+  
