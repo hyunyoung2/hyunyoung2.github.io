@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The list of papers 
+title: the Paper List for Conversational Recommendation System
 subtitle: Conversational Recommendation System
 category: ConvRec
 tags: [recommendation, conversation]
