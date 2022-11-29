@@ -27,9 +27,9 @@ In particular, in this page, I focus on Conversational Recommendation System.
 
 ## Method 
 
-| Paper title | Authors | Archive (Year) | 
+| Paper title | Authors | Conference & Journal (Year) | 
 |:-------:|:-------:|:-------:|
-| [BARCOR: Towards A Unified Framework for Conversational Recommendation Systems](https://arxiv.org/abs/2203.14257) | Wang et al. | ArXiv (2022)| 
+| [BARCOR: Towards A Unified Framework for Conversational Recommendation Systems](https://arxiv.org/abs/2203.14257) | Wang et al.| ArXiv (2022)| 
 
 
 
