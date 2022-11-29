@@ -35,7 +35,7 @@ In particular, in this page, I focus on Conversational Recommendation System.
 
 ## Dataset
 
-| Paper title | Authors | Conference & Journal (Years) |
-|:---:|:---:|:---:|
+| Paper title | Authors | Conference & Journal (Year) | 
+|:-------:|:-------:|:-------:|
 | test | test| test|       
 
