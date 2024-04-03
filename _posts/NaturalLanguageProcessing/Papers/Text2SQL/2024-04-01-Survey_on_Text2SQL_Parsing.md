@@ -26,12 +26,21 @@ Recently, the generative model in deep learning have significantly advanced the 
 This paper provides a comprehensive review on deep learning approaches for text-to-SQL parsing.
 
 This paper presented Three points such 1) Whether Dataset such Text-to-SQL copora is single-turn or multi-turn, 2) pre-trained language model and existing method for text-to-SQL parsing, 3) future and potential challenges for text-to-SQL Parsing.
+![Qin et al., arXiv 2023](/img/Image/NaturalLanguageProcessing/Papers/Text2SQL/2024-04-01-Survey_on_Text2SQL_Parsing/text2SQL_survey_dataset_table2.png)
+![Qin et al., arXiv 2023](/img/Image/NaturalLanguageProcessing/Papers/Text2SQL/2024-04-01-Survey_on_Text2SQL_Parsing/text2SQL_survey_dataset_table3.png)
+![Qin et al., arXiv 2023](/img/Image/NaturalLanguageProcessing/Papers/Text2SQL/2024-04-01-Survey_on_Text2SQL_Parsing/text2SQL_survey_dataset_table4.png)
+![Qin et al., arXiv 2023](/img/Image/NaturalLanguageProcessing/Papers/Text2SQL/2024-04-01-Survey_on_Text2SQL_Parsing/text2SQL_survey_dataset_table5.png)
 
-![Qin et al., arXiv 2023]()
+The following indicate that corpora for learning and evaluating the text-to-SQL(T2S) parsing system.
 
-![Qin et al., arXiv 2023]()
+![Qin et al., arXiv 2023](/img/Image/NaturalLanguageProcessing/Papers/Text2SQL/2024-04-01-Survey_on_Text2SQL_Parsing/text2SQL_survey_dataset_figure2.png)
 
-![Qin et al., arXiv 2023]()
+
+![Qin et al., arXiv 2023](/img/Image/NaturalLanguageProcessing/Papers/Text2SQL/2024-04-01-Survey_on_Text2SQL_Parsing/text2SQL_survey_dataset_figure3.png)
+
+![Qin et al., arXiv 2023](/img/Image/NaturalLanguageProcessing/Papers/Text2SQL/2024-04-01-Survey_on_Text2SQL_Parsing/text2SQL_survey_dataset_figure4.png)
+
+In the figure above, single-turn denotes context-independent & multi-turn is context-dependent. Especially, the SPIDER dataset is widely used on constructing the Text2SQL Parsing system as benchmark.
 
 For detailed experiment and explanation, refer to the paper, titled [A survey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions (Qin et al., arXiv 2022)](https://arxiv.org/abs/2208.13629)
 
