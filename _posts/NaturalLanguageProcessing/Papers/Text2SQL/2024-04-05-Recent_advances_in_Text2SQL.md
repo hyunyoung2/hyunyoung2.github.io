@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect
+title: Recent Advances in Text-to-SQL - A Survey of What We Have and What We Expect
 subtitle: Recent Advances in Text-to SQL
 category: Text2SQL
 tags: [Survey, Text2SQL]
