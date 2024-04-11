@@ -21,14 +21,11 @@ This post is a brief summary about the paper that I read for my study and curios
 
 {% include MathJax.html %}
 
-Text2SQL has attracted attention from both natural language processing and database communities. 
+Text2SQL has attracted attention from both natural language processing and database communities. That is beacuase the ability to convert the semantics in natural language into SQL queries. There are three challenges on Text2SQL: 1) extracting the meaning of natural utterance (encoding); 2) transforming the extracted meaning into another expression which is pragmatically equivalent to the NL meaning (translating); and 3) producing the corresponding SQL queries (decoding).
 
-That is beacuase the ability to convert the semantics in natural language into SQL queries.
+Text-to-SQL is to convert natural utterance into SQL queries as in the following figure 1. As you can see the figure 1, given a user utterance "What are the major cities in the state of Kansas?", the system outputs a corresponding SQL that can be used for retrieving the answer from a database.
 
-Text-to-SQL is to convert natural utterance into SQL queries as in the following figure 1.
-
-As you can see the figure 1, tiven a user utterance "What are the major cities in the state of Kansas?", the system outputs a corresponding SQL that can be used for retrieving the answer from a database.
-They survey the recent progress on text-to-SQL, from 1) datasets and 2) methods to 3) evaluation.
+In the paper, they summarized the recent progress on text-to-SQL, from 1) datasets and 2) methods to 3) evaluation.
 
 ![Deng et al., Coling 2022](/img/Image/NaturalLanguageProcessing/Papers/Text2SQL/2024-04-05-Recent_advances_in_Text2SQL/Recent_text2SQL_advances_figure1.png)
 
@@ -42,11 +39,19 @@ The following is the typical methods used for encoding in the Text2SQL.
 
 They group encoding methods into five categories as shown in Table 2. 
 
+ - **Ecnode Type Method** indicates that a token in the quesion mapping a type embedding to recognize entities and nubers in questions.
+ - **Graph-based Method** utilizes the rich structural information of database schemas with graph neural network.
+ - **Self-attention** indicates attention technique to be aware of a certain of information.
+ - **Adpat PLM** indicates leveraging the knowledge in pre-trained language models (PLMs) to better align PLM with the text-to-SQL task.
+ - **Pre-training** propose different pre-training objectives for Text2SQL task.
+   
 ![Deng et al., Coling 2022](/img/Image/NaturalLanguageProcessing/Papers/Text2SQL/2024-04-05-Recent_advances_in_Text2SQL/Recent_text2SQL_advances_table2.png)
 
 The following is typical mtehods used for decoding in text-to-SQL.
 
 ![Deng et al., Coling 2022](/img/Image/NaturalLanguageProcessing/Papers/Text2SQL/2024-04-05-Recent_advances_in_Text2SQL/Recent_text2SQL_advances_table3.png)
+
+The following is the summary of metrics, datasets that use these metrics, and their potentional error cases.
 
 ![Deng et al., Coling 2022](/img/Image/NaturalLanguageProcessing/Papers/Text2SQL/2024-04-05-Recent_advances_in_Text2SQL/Recent_text2SQL_advances_table4.png)
 
