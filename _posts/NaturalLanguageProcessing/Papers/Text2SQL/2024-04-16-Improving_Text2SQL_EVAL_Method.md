@@ -22,8 +22,8 @@ This post is a brief summary about the paper that I read for my study and curios
 
 They reorganized the existing datasets to resolve the promblem which is that traditional question-based splits allow queries to appear in both train and test.
 
+![Finegan-Dollack et al., ACL 2018](/img/Image/NaturalLanguageProcessing/Papers/Text2SQL/2024-04-16-Improving_Text2SQL_EVAL_Method/question_based_split.png)
 
-![Finegan-Dollack et al., ACL 2018]()
 
 For detailed experiment and explanation, refer to the paper, titled [Improving Text-to-SQL Evaluation Methodology (Finegan-Dollak et al., ACL 2018)](https://aclanthology.org/P18-1033/)
 
