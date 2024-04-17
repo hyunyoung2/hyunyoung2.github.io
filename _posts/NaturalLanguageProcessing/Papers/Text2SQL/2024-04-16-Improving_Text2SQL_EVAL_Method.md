@@ -37,7 +37,7 @@ For detailed experiment and explanation, refer to the paper, titled [Improving T
   - [ACL Version: Improving Text-to-SQL Evaluation Methodology (Finegan-Dollak et al., ACL 2018)](https://aclanthology.org/P18-1033/)
     
 - Leaderboard & Github
-  -  [Github1]((https://github.com/jkkummerfeld/text2sql-data))
+  -  [Github1](https://github.com/jkkummerfeld/text2sql-data)
   
 - How to use html for alert
   - [how to use icon](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_icons.html)
