@@ -1,6 +1,6 @@
 ---
 layout: post
-title: UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models
+title: UnifiedSKG - Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models
 subtitle: UnifiedSKG
 category: Text2SQL
 tags: [Text2SQL, Semantic_Parsing, NL2SQL]
