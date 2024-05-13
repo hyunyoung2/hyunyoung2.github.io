@@ -83,7 +83,7 @@ The following is the pre-training objective for text-to-SQL parsing.
 For detailed explanation, refer to the paper, titled [A survey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions (Qin et al., arXiv 2022)](https://arxiv.org/abs/2208.13629)
 
 <div class="alert alert-success" role="alert"><i class="fa fa-paperclip fa-lg"></i> <b>Download URL: </b><br>
-  <a href="https://arxiv.org/abs/2208.13629">The paper: A Surevey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions (Qin et al., arXiv 2022)</div>
+  <a href="https://arxiv.org/abs/2208.13629">The paper: A Surevey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions (Qin et al., arXiv 2022)</a> </div>
 
 # Reference 
 
