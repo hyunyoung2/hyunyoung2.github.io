@@ -58,7 +58,8 @@ The following is the summary of metrics, datasets that use these metrics, and th
 For detailed experiment and explanation, refer to the paper, titled [Recent Advances in Text-to-SQL: A Survey of What We Have and What We expect (Deng et al., Coling 2022)](https://aclanthology.org/2022.coling-1.190/)
 
 <div class="alert alert-success" role="alert"><i class="fa fa-paperclip fa-lg"></i> <b>Download URL: </b><br>
-  <a href="https://aclanthology.org/2022.coling-1.190/">The paper: Recent Advances in Text-to-SQL: A Survey of What We Hav and What We Expect (Deng et al., Coling 2022)</div>
+  <a href="https://aclanthology.org/2022.coling-1.190/">The paper: Recent Advances in Text-to-SQL: A Survey of What We Hav and What We Expect (Deng et al., Coling 2022)</a>
+  </div>
 
 # Reference 
 
