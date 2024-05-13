@@ -40,7 +40,7 @@ The all tasks above take as input a user request, a structured knowledge input, 
 For detailed experiment and explanation, refer to the paper, titled [UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models (Xie et al., EMNLP 2022)](https://aclanthology.org/2022.emnlp-main.39/)
 
 <div class="alert alert-success" role="alert"><i class="fa fa-paperclip fa-lg"></i> <b>Download URL: </b><br>
-  <a href="https://aclanthology.org/2022.emnlp-main.39/">The paper: UnifieSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models (Xie et al., EMNLP 2018)</div>
+  <a href="https://aclanthology.org/2022.emnlp-main.39/">The paper: UnifieSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models (Xie et al., EMNLP 2018)</a></div>
 
 # Reference 
 
