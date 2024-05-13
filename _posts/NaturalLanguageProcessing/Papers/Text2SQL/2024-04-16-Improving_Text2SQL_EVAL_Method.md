@@ -28,7 +28,8 @@ They reorganized the existing datasets to resolve the promblem which is that tra
 For detailed experiment and explanation, refer to the paper, titled [Improving Text-to-SQL Evaluation Methodology (Finegan-Dollak et al., ACL 2018)](https://aclanthology.org/P18-1033/)
 
 <div class="alert alert-success" role="alert"><i class="fa fa-paperclip fa-lg"></i> <b>Download URL: </b><br>
-  <a href="https://aclanthology.org/P18-1033/">The paper: Improvin Text-to-SQL Evaluation Methodology (Finegan-Dollack et al., ACL 2018)</div>
+  <a href="https://aclanthology.org/P18-1033/">The paper: Improvin Text-to-SQL Evaluation Methodology (Finegan-Dollack et al., ACL 2018)</a>
+  </div>
 
 # Reference 
 
