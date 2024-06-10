@@ -1,0 +1,71 @@
+---
+layout: post
+title: Fine-Tuning Languae Models From Human Preferences
+subtitle: FTLMHP
+category: LLM
+tags: [LLM, Feedback, Reward]
+permalink: /2024/06/10/FTLMHP/
+css : /css/ForYouTubeByHyun.css
+bigimg: 
+  - "/img/Image/BigImages/carmel.jpg" : "Carmel-by-the-Sea, CA (2016)"
+  - "/img/Image/BigImages/monterey.jpg" : "Monterey, CA (2016)"
+  - "/img/Image/BigImages/stanford_dish.jpg" : "Stanford Dish, CA (2016)"
+  - "/img/Image/BigImages/marian_beach_in_sanfran.jpg" : "MRINA of San Francisco, CA (2016)"
+  - "/img/Image/BigImages/carmel2.jpg" : "Carmel-by-the-Sea, CA (2016)"
+  - "/img/Image/BigImages/marina.jpg" : "MRINA of San Francisco, CA (2016)"
+  - "/img/Image/BigImages/sanfrancisco.jpg" : "San Francisco, CA (2016)"
+  
+---
+
+This post is a brief summary about the paper that I read for my study and curiosity, so I shortly arrange the content of the paper, titled [Fine-Tuning Langauge Models from Human Preferences (Ziegler et al., arXiv 2020)](https://arxiv.org/abs/1909.08593), that I read and studied. 
+
+{% include MathJax.html %}
+
+They said that the existing RL method has been appiled to the simulated enviroment. 
+However, they wanted to apply RL into real-word tasks which expresses complex information about value as natural languages. 
+
+They said that there is a long literature applying reinforcement learning to natural language tasks. 
+The most works uses algorithmically defined reward functions such as BLEU for translation, ROUGE for summarization, music theory-based rewards, or event detectors for story gneration.
+
+![Ziegler et al., arXiv 2020](/img/Image/NaturalLanguageProcessing/Papers/RL/2024-06-10-FTLMHP/FTLMHP_01.png)
+
+Let's see preference option $(y_1, y_2, y_3, y_4)$, prompt $x$, and $b \in {0,1,2,3}$. 
+Having collected a dataset $S$ of $(x, y_0, y_1, y_2, y_3, b)$ tuples, the reward model is fitted as follows:
+
+$$
+ loss(r) = E_{(s, \{y_i\}, b) \sim S}[log(\dfrace^{r(x, y_b)}{\sum_{i} e^{r(x, y_i)}})]
+$$
+
+They perform RL with a penalty with expectiona $\beta KL(\pi, \rho)$ using the following loss:
+
+$$
+ R(x,y) = r(x,y) - \beta log(\dfrac{\pi(y|x)}{\rho(y|x)})
+$$
+
+Their overal training process is:
+
+1. Gather samples $(x, y_0, y_1, y_2, y_3)$ via $x \sim D , y_i \sim \rho(.|x)$. Ask humans to pick the best $y_i$ from each.
+2. Initailize $r$ to $\rho$, using random initialization for the final linear layer of $r$. Train $r$ on the human samples using loss of reward model.
+3. Train $\pi$ via Proximal Policy Optimization (PPO) with reward $R$ from RL training with a penality on $x \sim D$.
+4. In the online data collection case, continue to collect additional samples, and periodically retrain the reward model $r$.
+
+For detailed experiment and explanation, refer to the paper, titled [Fine-Tuning Langauge Models from Human Preferences (Ziegler et al., arXiv 2020)](https://arxiv.org/abs/1909.08593)
+
+<div class="alert alert-success" role="alert"><i class="fa fa-paperclip fa-lg"></i> <b>Download URL: </b><br>
+  <a href="https://arxiv.org/abs/1909.08593">The paper: Fine-Tuning Language Models from Human Preferences (Ziegler et al., arXiv 2020)</a></div>
+
+# Reference 
+
+- Paper 
+  - [ArXiv Version: Fine-Tuning Langauge Models from Human Preferences (Ziegler et al., arXiv 2020)](https://arxiv.org/abs/1909.08593)
+
+- HuggingFace TRL 
+  - [TRL - Transformer Reinforcement Learning](https://huggingface.co/docs/trl/index)
+  - [CPOconfig in Trainer of TRL](https://huggingface.co/docs/trl/main/en/trainer)
+  
+- How to use html for alert
+  - [how to use icon](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_icons.html)
+ 
+- How to use MathJax 
+  - [MathJax basic tutorial and quick reference in StackExchange](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
+
