@@ -26,14 +26,14 @@ In this paper, they want to focus on operatinalizing "what would be the AlpacaEv
 In other words, The automated evaluation measures such as AlpacaEval return their quality estimates through a combination of direct effects that measure the quality of model response and indirect effects that are mediated by spurious variables such as the length of outputs. 
 
 
-![Dubois et al., arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/LLMEval/AlpacaEval2_01.png)
+![Dubois et al., arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/LLMEval/2024-07-20-alpacaEval/AlpacaEval2_01.png)
 
 The following is length control via regression. 
  - Model Identity
  - Length of output
  - Instruction difficulty
 
-![Dubois et al., arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/LLMEval/AlpacaEval2_02.png)
+![Dubois et al., arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/LLMEval/2024-07-20-alpacaEval/AlpacaEval2_02.png)
 
 
 For detailed experiment and explanation, refer to the paper, titled [Length-Controleed AlpacaEval: A Simple Way to Debias Automatic Evaluators (Dubois et al., arXiv 2024)](https://arxiv.org/abs/2404.04475)
