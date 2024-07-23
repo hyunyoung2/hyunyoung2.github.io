@@ -21,8 +21,19 @@ This post is a brief summary about the paper that I read for my study and curios
 
 {% include MathJax.html %}
 
+In this paper, they want to focus on operatinalizing "what would be the AlpacaEval metric be, if the output of all models had the same lengthas those of the baseline?" into a simple regression-based estimator.
 
-![Dubois et al., arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/)
+In other words, The automated evaluation measures such as AlpacaEval return their quality estimates through a combination of direct effects that measure the quality of model response and indirect effects that are mediated by spurious variables such as the length of outputs. 
+
+
+![Dubois et al., arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/LLMEval/AlpacaEval2_01.png)
+
+The following is length control via regression. 
+ - Model Identity
+ - Length of output
+ - Instruction difficulty
+
+![Dubois et al., arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/LLMEval/AlpacaEval2_02.png)
 
 
 For detailed experiment and explanation, refer to the paper, titled [Length-Controleed AlpacaEval: A Simple Way to Debias Automatic Evaluators (Dubois et al., arXiv 2024)](https://arxiv.org/abs/2404.04475)
