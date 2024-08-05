@@ -64,19 +64,27 @@ Let's see the detail of self-rewarding LLM.
    2. Seed LLM-as-a-Judge instruction following data which is a seed set of (evaluation instruction prompt, evaluation result response) examples which can also be  used for training.
       The evaluation standard is five additive criteria (relevance, coverage, usefulness, clarity and expertise), covering various aspects of quality that is called Evaluation Fine-Tuning (EFT) data.
    3. Self instruction Creation : To self-modify its own trainin set, The following steps is implemented as followings:
-       3-1. Generate a new prompt $x_{i}$ using few-shot prompting, sampling prompts from the original seed IFT data. 
+
+       3-1. Generate a new prompt $x_{i}$ using few-shot prompting, sampling prompts from the original seed IFT data.
+      
        3-2. Generate candidate responses: N diverse candidate response ${y_{1}, ... ,y_{N},}$ for the given prompt $x$.
+      
        3-3. Evaluate candiate response: the LLM-as-a-Judge ability of our same model to evaluate its own candidate responses with scores from 0 to 5.
-   4. Instruction following Training: training is initially performed with the seed IFT and EFT data. This is then augmented with an additional data via AI (Self-)Feedback.
+      
+   5. Instruction following Training: training is initially performed with the seed IFT and EFT data. This is then augmented with an additional data via AI (Self-)Feedback.
 
       ![Yuna et al., arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RL/2024-08-05-Self_Rewarding/Self-Rewarding_01.png)
 
-   5. Overal Self-Alignment Algorithm
+   6. Overal Self-Alignment Algorithm
       5-1. Interative Training : Their overal procedure trains a series of models $M_{1}, M_{2}, M_{3}, ..., M_{T}$ where each successive model $t$ uses augmented training data created by the $(t-1)^{th}$ model. 
       5-2. Model sequence:
+      
           $M_0$: Base pretrained LLM with no fine-tuning.
+      
           $M_1$: Initialized with $M_{0}$, then fine-tuned on the IFT+EFT seed data using SFT.
+      
           $M_2$: Initialized with $M_{1}$, the trained with AIFT($M_{1}$) data using DPO.
+      
           $M_3$: Initialized with $M_{2}$, the trained with AIFT($M_{2}$) data using DPO. 
           
 For detailed experiment and explanation, refer to the paper, titled [Self-Rewarding Language Models (Yuan et al., arXiv 2024)](https://arxiv.org/abs/2401.10020)
