@@ -22,7 +22,7 @@ This post is a brief summary about the paper that I read for my study and curios
 {% include MathJax.html %}
 
 
-![Shi et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/Pompt/2024-10-02-Text2SQL_Prompt/Text2SQL_Prompt_01.png)
+![Shi et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/Pompt/2024-10-02-Text2SQL_Prompt/Text2SQL_Prompt1_01.png)
 
 For detailed experiment and explanation, refer to the paper, titled [A Survey on Employing Large Language Models for Text-to-SQL Tasks (Shi et al., arXiv 2024)](https://arxiv.org/abs/2407.15186)
 
