@@ -3,7 +3,7 @@ layout: post
 title: InstructRAG - Instructing Retrieval-Augmented Generation via Self-Synthesized Rationales
 subtitle: InstructRAG
 category: rag
-tags: [LLM, rag]
+tags: [LLM, RAG]
 permalink: /2024/11/21/InstructRAG/
 css : /css/ForYouTubeByHyun.css
 bigimg: 
@@ -23,7 +23,7 @@ This post is a brief summary about the paper that I read for my study and curios
 
 They were saying that imperfect retrievers or noisy corpora can introduce misleading or even erroneous information to the retrieved contents, so it downgrades generation quality. 
  
-![Wei et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2024-11-21-InstructRAG/nstructRAG_01.png)
+![Wei et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2024-11-21-InstructRAG/InstructRAG_01.png)
 
 For detailed experiment and explanation, refer to the paper, titled [InstructRAG - Instructing Retrieval-Augmented Generation via Self-Synthesized Rationales (Wei et al., arXiv 2024)](https://arxiv.org/pdf/2406.13629)
 
