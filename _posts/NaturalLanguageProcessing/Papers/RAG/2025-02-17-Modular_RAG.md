@@ -4,7 +4,7 @@ title: Modular RAG - Transforming RAG Systems into LEGO-like Reconfigurable Fram
 subtitle: Modular-RAG
 category: RAG
 tags: [LLM, RAG]
-permalink: /2025/02/17/Self-RAG/
+permalink: /2025/02/17/Modular_RAG/
 css : /css/ForYouTubeByHyun.css
 bigimg: 
   - "/img/Image/BigImages/carmel.jpg" : "Carmel-by-the-Sea, CA (2016)"
