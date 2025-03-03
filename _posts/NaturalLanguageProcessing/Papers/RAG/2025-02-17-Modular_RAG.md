@@ -38,6 +38,9 @@ Retrieval-augmented Generation (RAG) has markedly enhanced the capabilities of L
 
 - Paper 
   - [arXiv Version: Modular RAG: Transforming RAG Systems into LEGO-like Reconfiguragble Frameworks (Gao et al. arXiv 2024)](https://arxiv.org/abs/2407.21059)
+ 
+- For Your Information
+  - [Retrieval Augmented Generation-LLM Comparison](https://orkg.org/comparison/R716040)
   
 - How to use html for alert
   - [how to use icon](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_icons.html)
