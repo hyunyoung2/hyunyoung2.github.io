@@ -21,9 +21,59 @@ This post is a brief summary about the paper that I read for my study and curios
 
 {% include MathJax.html %}
 
+The following indicates the Naive RAG and Advaced RAG Scenario.
 
-![Gao et al. arXiv 2024]()
+![Gao et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2025-03-08-Modular_RAG/Modular_RAG_01.png)
 
+The following indicates the Modular RAG Scenario.
+
+![Gao et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2025-03-08-Modular_RAG/Modular_RAG_02.png)
+
+The following indicates the three paradigms of RAG system.
+
+![Gao et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2025-03-08-Modular_RAG/Modular_RAG_03.png)
+
+The following two images denote tha linear pattern of RAG System.
+
+i.e. The below image is Sequential.
+
+![Gao et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2025-03-08-Modular_RAG/Modular_RAG_04.png)
+
+i.e The below image is Rewrite-Retrieval-Read (RRR). 
+
+![Gao et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2025-03-08-Modular_RAG/Modular_RAG_05.png)
+
+The following indicates the conditional pattern of RAG system.
+
+![Gao et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2025-03-08-Modular_RAG/Modular_RAG_06.png)
+
+The following three images indicate the branching pattern of RAG system.
+
+![Gao et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2025-03-08-Modular_RAG/Modular_RAG_07.png)
+
+![Gao et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2025-03-08-Modular_RAG/Modular_RAG_08.png)
+
+![Gao et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2025-03-08-Modular_RAG/Modular_RAG_09.png)
+
+The following five images indicate the loop pattern of RAG system.
+
+![Gao et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2025-03-08-Modular_RAG/Modular_RAG_10.png)
+
+![Gao et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2025-03-08-Modular_RAG/Modular_RAG_11.png)
+
+![Gao et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2025-03-08-Modular_RAG/Modular_RAG_12.png)
+
+![Gao et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2025-03-08-Modular_RAG/Modular_RAG_13.png)
+
+![Gao et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2025-03-08-Modular_RAG/Modular_RAG_14.png)
+
+The following images is tuning pattern of RAG System.
+
+![Gao et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2025-03-08-Modular_RAG/Modular_RAG_15.png)
+
+![Gao et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2025-03-08-Modular_RAG/Modular_RAG_16.png)
+
+![Gao et al. arXiv 2024](/img/Image/NaturalLanguageProcessing/Papers/RAG/2025-03-08-Modular_RAG/Modular_RAG_17.png)
 
 For detailed experiment and explanation, refer to the paper, titled [Modular RAG: Transforming RAG Systems into LEGO-like Reconfiguragble Frameworks (Gao et al. arXiv 2024)](https://arxiv.org/abs/2407.21059)
 
