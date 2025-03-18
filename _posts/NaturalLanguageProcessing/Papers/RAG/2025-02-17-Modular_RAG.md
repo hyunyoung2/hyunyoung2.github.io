@@ -91,6 +91,7 @@ Retrieval-augmented Generation (RAG) has markedly enhanced the capabilities of L
  
 - For Your Information
   - [Retrieval Augmented Generation-LLM Comparison](https://orkg.org/comparison/R716040)
+  - [Modular RAG using LLMs:What is it and how does it work?](https://medium.com/@sahin.samia/modular-rag-using-llms-what-is-it-and-how-does-it-work-d482ebb3d372)
   
 - How to use html for alert
   - [how to use icon](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_icons.html)
